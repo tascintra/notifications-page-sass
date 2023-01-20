@@ -1,0 +1,129 @@
+:root {
+  --vermelho-principal: #f65351;
+  --azul-principal: #0a317b;
+  --branco: #ffffff;
+  --azul-claro: #f7fafd;
+  --azul-claro-secundario: #e5effa;
+  --azul-claro-terciario: #dde7ee;
+  --cinza: #939dae;
+  --cinza-medio: #5e6778;
+  --cinza-escuro: #1c202b;
+}
+
+:root {
+  --vermelho-principal: #f65351;
+  --azul-principal: #0a317b;
+  --branco: #ffffff;
+  --azul-claro: #f7fafd;
+  --azul-claro-secundario: #e5effa;
+  --azul-claro-terciario: #dde7ee;
+  --cinza: #939dae;
+  --cinza-medio: #5e6778;
+  --cinza-escuro: #1c202b;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  background-color: var(--azul-claro);
+}
+
+.principal {
+  width: 60%;
+  position: absolute;
+  left: 17rem;
+  margin-top: 40px;
+  background-color: var(--branco);
+  border-radius: 12px;
+}
+
+:root {
+  --vermelho-principal: #f65351;
+  --azul-principal: #0a317b;
+  --branco: #ffffff;
+  --azul-claro: #f7fafd;
+  --azul-claro-secundario: #e5effa;
+  --azul-claro-terciario: #dde7ee;
+  --cinza: #939dae;
+  --cinza-medio: #5e6778;
+  --cinza-escuro: #1c202b;
+}
+
+.cabecalho__container .cabecalho {
+  display: flex;
+  align-items: center;
+  margin: 20px 10px 5px 10px;
+}
+.cabecalho__container .cabecalho .cabecalho__titulo {
+  color: var(--azul-escuro);
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 10px 0 20px;
+}
+.cabecalho__container .cabecalho .cabecalho__numero {
+  color: var(--branco);
+  font-weight: 800;
+  background-color: var(--azul-principal);
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+.cabecalho__container .cabecalho .cabecalho__texto {
+  color: var(--cinza-medio);
+  font-weight: 500;
+  position: relative;
+  left: 30rem;
+}
+
+:root {
+  --vermelho-principal: #f65351;
+  --azul-principal: #0a317b;
+  --branco: #ffffff;
+  --azul-claro: #f7fafd;
+  --azul-claro-secundario: #e5effa;
+  --azul-claro-terciario: #dde7ee;
+  --cinza: #939dae;
+  --cinza-medio: #5e6778;
+  --cinza-escuro: #1c202b;
+}
+
+.notificacoes__container .notificacoes {
+  display: flex;
+  align-items: center;
+  margin: 0 44px;
+}
+.notificacoes__container .notificacoes .notificacoes__foto {
+  width: 32px;
+  margin: 0 10px 5px 30px;
+}
+.notificacoes__container .notificacoes .notificacoes__nome {
+  font-weight: 800;
+  color: var(--cinza-escuro);
+  padding-right: 10px;
+}
+.notificacoes__container .notificacoes .notificacoes__texto {
+  font-weight: 500;
+  color: var(--cinza);
+  padding-right: 10px;
+}
+.notificacoes__container .notificacoes .notificacoes__texto-nome {
+  font-weight: 800;
+  color: var(--cinza-medio);
+}
+.notificacoes__container .notificacoes .notificacoes__texto-mensagem {
+  font-weight: 400;
+  color: var(--cinza);
+}
+.notificacoes__container .notificacoes .notificacoes__texto-xadrez {
+  font-weight: 800;
+  color: var(--azul);
+}
+.notificacoes__container .notificacoes .notificacoes__foto-xadrez {
+  width: 30px;
+}
+.notificacoes__container .notificacoes .noticacoes__tempo {
+  font-weight: 500;
+  color: var(--cinza);
+  font-size: 14px;
+  margin-left: 8rem;
+}/*# sourceMappingURL=style.css.map */

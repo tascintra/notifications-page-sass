@@ -1,0 +1,44 @@
+@import '../abstract/variaveis';
+
+.notificacoes__container {
+    .notificacoes {
+        display: flex;
+        align-items: center;
+        margin: 0 44px;
+    .notificacoes__foto {
+        width: 32px;
+        margin: 0 10px 5px 30px;
+    }
+    .notificacoes__nome {
+        font-weight: 800;
+        color: var(--cinza-escuro);
+        padding-right: 10px;
+    }
+    .notificacoes__texto {
+        font-weight: 500;
+        color: var(--cinza);
+        padding-right: 10px;
+    }
+    .notificacoes__texto-nome {
+        font-weight: 800;
+        color: var(--cinza-medio);
+    }
+    .notificacoes__texto-mensagem {
+        font-weight: 400;
+        color: var(--cinza);
+    }
+    .notificacoes__texto-xadrez {
+        font-weight: 800;
+        color: var(--azul);
+    }
+    .notificacoes__foto-xadrez {
+        width: 30px;
+    }
+    .noticacoes__tempo {
+        font-weight: 500;
+        color: var(--cinza);
+        font-size: 14px;
+        margin-left: 8rem;
+    }
+}
+}
