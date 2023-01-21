@@ -113,6 +113,7 @@ body {
   gap: 16px;
   padding: 16px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .notifications__area .notification__container .notification__avatar {
   width: 44px;
@@ -122,6 +123,11 @@ body {
   width: 44px;
   height: 44px;
   margin-left: auto;
+  border: 2px solid transparent;
+}
+.notifications__area .notification__container .notification__picture:hover {
+  border: 2px solid var(--gray300);
+  border-radius: 8px;
 }
 .notifications__area .notification__container .notification__content {
   display: flex;
@@ -147,6 +153,9 @@ body {
   margin-top: 8px;
   border: 1px solid var(--gray300);
   border-radius: 4px;
+}
+.notifications__area .notification__container .notification__content .notification__message:hover {
+  background: var(--gray300);
 }
 .notifications__area .notification__container .notification__content .notification__time {
   font-variation-settings: "wght" 400;
