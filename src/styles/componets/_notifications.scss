@@ -16,6 +16,7 @@
 
     .notification__avatar {
       width: 44px;
+      height: 44px;
     }
     .notification__content {
       display: flex;
@@ -23,6 +24,7 @@
       gap: 4px;
       color: var(--gray500);
       font-variation-settings: 'wght' 450;
+      max-width: 552px;
 
       .notification__user {
         color: var(--blue500);
@@ -39,7 +41,8 @@
       }
 
       .notification__time {
-        font-variation-settings: 'wght' 350;
+        font-variation-settings: 'wght' 400;
+        color: var(--gray400);
       }
     }
   }

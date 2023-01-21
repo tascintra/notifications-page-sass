@@ -88,6 +88,7 @@ body {
 }
 .notifications__area .notification__container .notification__avatar {
   width: 44px;
+  height: 44px;
 }
 .notifications__area .notification__container .notification__content {
   display: flex;
@@ -95,6 +96,7 @@ body {
   gap: 4px;
   color: var(--gray500);
   font-variation-settings: "wght" 450;
+  max-width: 552px;
 }
 .notifications__area .notification__container .notification__content .notification__user {
   color: var(--blue500);
@@ -108,5 +110,6 @@ body {
   color: var(--blue300);
 }
 .notifications__area .notification__container .notification__content .notification__time {
-  font-variation-settings: "wght" 350;
+  font-variation-settings: "wght" 400;
+  color: var(--gray400);
 }/*# sourceMappingURL=style.css.map */
