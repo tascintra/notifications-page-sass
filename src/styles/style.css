@@ -38,31 +38,6 @@ body a {
   color: inherit;
 }
 
-.cabecalho__container .cabecalho {
-  display: flex;
-  align-items: center;
-  margin: 20px 10px 5px 10px;
-}
-.cabecalho__container .cabecalho .cabecalho__titulo {
-  color: var(--azul-escuro);
-  font-size: 20px;
-  font-weight: 800;
-  margin: 0 10px 0 20px;
-}
-.cabecalho__container .cabecalho .cabecalho__numero {
-  color: var(--branco);
-  font-weight: 800;
-  background-color: var(--azul-principal);
-  padding: 3px 10px;
-  border-radius: 5px;
-}
-.cabecalho__container .cabecalho .cabecalho__texto {
-  color: var(--cinza-medio);
-  font-weight: 500;
-  position: relative;
-  left: 30rem;
-}
-
 .notifications__area {
   max-width: 668px;
   max-height: 840px;
