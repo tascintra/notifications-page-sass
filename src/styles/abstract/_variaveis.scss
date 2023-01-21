@@ -1,16 +1,13 @@
-//Tamanho de tela 
-//Mobile: 375px;
-//Desktop: 1440px;
-
-//Cores
+//Colors
 :root {
-    --vermelho-principal: #f65351;
-    --azul-principal: #0a317b;
-    --branco: #ffffff;
-    --azul-claro: #f7fafd;
-    --azul-claro-secundario: #e5effa;
-    --azul-claro-terciario: #dde7ee;
-    --cinza: #939dae;
-    --cinza-medio: #5e6778;
-    --cinza-escuro: #1c202b;
-    }
+  --red300: #f65351;
+  --blue300: #0a317b;
+  --blue500: #1c202b;
+
+  --white: #ffffff;
+  --gray100: #f7fafd;
+  --gray200: #e5effa;
+  --gray300: #dde7ee;
+  --gray400: #939dae;
+  --gray500: #5e6778;
+}
