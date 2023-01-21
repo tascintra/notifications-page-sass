@@ -93,13 +93,14 @@ body {
   gap: 12px;
 }
 .notifications__area .notifications__summary .notifications__amount .notifications__title {
+  font-variation-settings: "wght" 750;
   font-size: 1.4rem;
 }
 .notifications__area .notifications__summary .notifications__amount .notifications__counter {
   font-variation-settings: "wght" 750;
   background: var(--blue300);
   color: var(--white);
-  padding: 2px 10px;
+  padding: 2px 11px;
   border-radius: 6px;
 }
 .notifications__area .notifications__summary .notifications__mark__all {
