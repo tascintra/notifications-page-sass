@@ -11,7 +11,7 @@
   .notification__container {
     display: flex;
     gap: 16px;
-    padding: 20px;
+    padding: 16px;
     border-radius: 4px;
 
     .notification__avatar {
@@ -21,10 +21,20 @@
       display: flex;
       flex-direction: column;
       gap: 4px;
+      color: var(--gray500);
 
       .notification__user {
-        
+        color: var(--blue500);
+        font-variation-settings: 'wght' 700, 'GRAD' 88;
       }
+
+      .notification__post{
+        font-variation-settings: 'wght' 800, 'GRAD' 88;
+      }
+
+      .notification__group {}
+
+      .notification__time {}
     }
   }
 }

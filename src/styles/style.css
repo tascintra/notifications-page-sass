@@ -83,7 +83,7 @@ body {
 .notifications__area .notification__container {
   display: flex;
   gap: 16px;
-  padding: 20px;
+  padding: 16px;
   border-radius: 4px;
 }
 .notifications__area .notification__container .notification__avatar {
@@ -93,4 +93,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  color: var(--gray500);
+}
+.notifications__area .notification__container .notification__content .notification__user {
+  color: var(--blue500);
+  font-variation-settings: "wght" 700, "GRAD" 88;
+}
+.notifications__area .notification__container .notification__content .notification__post {
+  font-variation-settings: "wght" 800, "GRAD" 88;
 }/*# sourceMappingURL=style.css.map */
