@@ -2,12 +2,29 @@
   max-width: 732px;
   max-height: 840px;
   border-radius: 16px;
+  padding: 32px;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 
   .notification__container {
-    
+    display: flex;
+    gap: 16px;
+    padding: 20px;
+    border-radius: 4px;
 
     .notification__avatar {
       width: 44px;
+    }
+    .notification__content {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+
+      .notification__user {
+        
+      }
     }
   }
 }
