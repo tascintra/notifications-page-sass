@@ -90,6 +90,11 @@ body {
   width: 44px;
   height: 44px;
 }
+.notifications__area .notification__container .notification__picture {
+  width: 44px;
+  height: 44px;
+  margin-left: auto;
+}
 .notifications__area .notification__container .notification__content {
   display: flex;
   flex-direction: column;
