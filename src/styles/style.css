@@ -113,6 +113,7 @@ body {
   gap: 16px;
   padding: 16px;
   border-radius: 4px;
+  cursor: default;
 }
 .notifications__area .notification__container .notification__avatar {
   width: 44px;
@@ -141,6 +142,9 @@ body {
   color: var(--blue500);
   font-variation-settings: "wght" 700;
   cursor: pointer;
+}
+.notifications__area .notification__container .notification__content .notification__user:hover {
+  color: var(--blue300);
 }
 .notifications__area .notification__container .notification__content .notification__post {
   font-variation-settings: "wght" 730;
