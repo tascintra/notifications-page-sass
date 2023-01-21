@@ -24,6 +24,7 @@
       height: 44px;
       margin-left: auto;
     }
+
     .notification__content {
       display: flex;
       flex-direction: column;
@@ -44,6 +45,13 @@
       .notification__group {
         font-variation-settings: 'wght' 800;
         color: var(--blue300);
+      }
+
+      .notification__message {
+        padding: 16px 22px 16px 16px;
+        margin-top: 8px;
+        border: 1px solid var(--gray300);
+        border-radius: 4px;
       }
 
       .notification__time {
