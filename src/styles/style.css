@@ -11,6 +11,27 @@
   --font100: "Plus Jakarta Sans", sans-serif;
 }
 
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: var(--font100);
   font-size: 1rem;
@@ -19,23 +40,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* CSS Reset */
-}
-body * {
-  margin: 0;
-  padding: 0;
-}
-body ul {
-  list-style: none;
-}
-body img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-body a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .notifications__area {
