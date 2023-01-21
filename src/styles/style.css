@@ -71,10 +71,10 @@ body {
 }
 
 .notifications__area {
-  max-width: 732px;
+  max-width: 668px;
   max-height: 840px;
   border-radius: 16px;
-  padding: 32px;
+  padding: 44px 32px 16px 32px;
   background: var(--white);
   display: flex;
   flex-direction: column;
@@ -94,11 +94,19 @@ body {
   flex-direction: column;
   gap: 4px;
   color: var(--gray500);
+  font-variation-settings: "wght" 450;
 }
 .notifications__area .notification__container .notification__content .notification__user {
   color: var(--blue500);
-  font-variation-settings: "wght" 700, "GRAD" 88;
+  font-variation-settings: "wght" 700;
 }
 .notifications__area .notification__container .notification__content .notification__post {
-  font-variation-settings: "wght" 800, "GRAD" 88;
+  font-variation-settings: "wght" 800;
+}
+.notifications__area .notification__container .notification__content .notification__group {
+  font-variation-settings: "wght" 800;
+  color: var(--blue300);
+}
+.notifications__area .notification__container .notification__content .notification__time {
+  font-variation-settings: "wght" 350;
 }/*# sourceMappingURL=style.css.map */
