@@ -1,12 +1,14 @@
 .notifications__area {
   max-width: 668px;
   max-height: 840px;
+  border: 1px solid var(--gray100);
   border-radius: 16px;
   padding: 44px 32px 0px 32px;
   background: var(--white);
   display: flex;
   flex-direction: column;
   gap: 4px;
+  box-shadow: 0px 0px 15px 8px rgba(222, 222, 222, 0.2);
 
   .notifications__summary {
     display: flex;
