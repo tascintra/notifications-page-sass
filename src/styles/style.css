@@ -145,6 +145,7 @@ body a {
   position: absolute;
   right: -14px;
   top: 8px;
+  cursor: pointer;
 }
 .notifications__area .notification__container .notification__content {
   display: flex;
