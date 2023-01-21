@@ -134,6 +134,16 @@ body a {
   border: 2px solid var(--gray300);
   border-radius: 8px;
 }
+.notifications__area .notification__container .notification__content.unread::after {
+  content: "";
+  background: var(--red300);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  right: -12px;
+  top: 8px;
+}
 .notifications__area .notification__container .notification__content {
   display: flex;
   flex-direction: column;
@@ -141,6 +151,7 @@ body a {
   color: var(--gray500);
   font-variation-settings: "wght" 450;
   max-width: 552px;
+  position: relative;
 }
 .notifications__area .notification__container .notification__content .notification__user {
   color: var(--blue500);
