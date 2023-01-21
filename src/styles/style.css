@@ -74,11 +74,14 @@ body {
   max-width: 668px;
   max-height: 840px;
   border-radius: 16px;
-  padding: 44px 32px 16px 32px;
+  padding: 44px 32px 0px 32px;
   background: var(--white);
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+.notifications__area .notification__container.unread {
+  background: var(--gray100);
 }
 .notifications__area .notification__container {
   display: flex;

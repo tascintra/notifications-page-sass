@@ -2,11 +2,15 @@
   max-width: 668px;
   max-height: 840px;
   border-radius: 16px;
-  padding: 44px 32px 16px 32px;
+  padding: 44px 32px 0px 32px;
   background: var(--white);
   display: flex;
   flex-direction: column;
   gap: 4px;
+
+  .notification__container.unread {
+    background: var(--gray100);
+  }
 
   .notification__container {
     display: flex;
