@@ -35,6 +35,10 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1rem;
   background-color: var(--gray100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .marked__border {
@@ -66,43 +70,11 @@ body {
   left: 30rem;
 }
 
-.notificacoes__container .notificacoes {
-  display: flex;
-  align-items: center;
-  margin: 0 44px;
+.notifications__area {
+  max-width: 732px;
+  max-height: 840px;
+  border-radius: 16px;
 }
-.notificacoes__container .notificacoes .notificacoes__foto {
-  width: 32px;
-  margin: 0 10px 5px 30px;
-}
-.notificacoes__container .notificacoes .notificacoes__nome {
-  font-weight: 800;
-  color: var(--cinza-escuro);
-  padding-right: 10px;
-}
-.notificacoes__container .notificacoes .notificacoes__texto {
-  font-weight: 500;
-  color: var(--cinza);
-  padding-right: 10px;
-}
-.notificacoes__container .notificacoes .notificacoes__texto-nome {
-  font-weight: 800;
-  color: var(--cinza-medio);
-}
-.notificacoes__container .notificacoes .notificacoes__texto-mensagem {
-  font-weight: 400;
-  color: var(--cinza);
-}
-.notificacoes__container .notificacoes .notificacoes__texto-xadrez {
-  font-weight: 800;
-  color: var(--azul);
-}
-.notificacoes__container .notificacoes .notificacoes__foto-xadrez {
-  width: 30px;
-}
-.notificacoes__container .notificacoes .noticacoes__tempo {
-  font-weight: 500;
-  color: var(--cinza);
-  font-size: 14px;
-  margin-left: 8rem;
+.notifications__area .notification__container .notification__avatar {
+  width: 44px;
 }/*# sourceMappingURL=style.css.map */

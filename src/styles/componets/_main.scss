@@ -23,6 +23,10 @@ body {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1rem;
   background-color: var(--gray100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .marked__border {
