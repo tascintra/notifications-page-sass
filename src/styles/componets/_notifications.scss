@@ -8,6 +8,34 @@
   flex-direction: column;
   gap: 4px;
 
+  .notifications__summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    cursor: default;
+
+    .notifications__amount {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+      .notifications__title {
+        font-size: 1.4rem;
+      }
+      .notifications__counter {
+        font-variation-settings: 'wght' 750;
+        background: var(--blue300);
+        color: var(--white);
+        padding: 2px 10px;
+        border-radius: 6px;
+      }
+    }
+    .notifications__mark__all {
+        margin-left: auto;
+        cursor: pointer
+      }
+  }
+
   .notification__container.unread {
     background: var(--gray100);
   }
