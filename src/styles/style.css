@@ -113,7 +113,6 @@ body {
   gap: 16px;
   padding: 16px;
   border-radius: 4px;
-  cursor: pointer;
 }
 .notifications__area .notification__container .notification__avatar {
   width: 44px;
@@ -124,6 +123,7 @@ body {
   height: 44px;
   margin-left: auto;
   border: 2px solid transparent;
+  cursor: pointer;
 }
 .notifications__area .notification__container .notification__picture:hover {
   border: 2px solid var(--gray300);
@@ -140,19 +140,26 @@ body {
 .notifications__area .notification__container .notification__content .notification__user {
   color: var(--blue500);
   font-variation-settings: "wght" 700;
+  cursor: pointer;
 }
 .notifications__area .notification__container .notification__content .notification__post {
   font-variation-settings: "wght" 730;
+  cursor: pointer;
+}
+.notifications__area .notification__container .notification__content .notification__post:hover {
+  color: var(--blue300);
 }
 .notifications__area .notification__container .notification__content .notification__group {
   font-variation-settings: "wght" 800;
   color: var(--blue300);
+  cursor: pointer;
 }
 .notifications__area .notification__container .notification__content .notification__message {
   padding: 16px 22px 16px 16px;
   margin-top: 8px;
   border: 1px solid var(--gray300);
   border-radius: 4px;
+  cursor: pointer;
 }
 .notifications__area .notification__container .notification__content .notification__message:hover {
   background: var(--gray300);
