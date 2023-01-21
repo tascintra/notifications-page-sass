@@ -42,10 +42,6 @@ body {
   height: 100vh;
 }
 
-.marked__border {
-  border: 1px dashed tomato;
-}
-
 .cabecalho__container .cabecalho {
   display: flex;
   align-items: center;
