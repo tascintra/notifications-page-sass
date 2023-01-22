@@ -59,6 +59,8 @@
     padding: 16px;
     border-radius: 4px;
     cursor: default;
+    border: 1px solid transparent;
+
 
     .notification__avatar {
       width: 44px;
@@ -89,6 +91,7 @@
         right: -14px;
         top: 8px;
         cursor: pointer;
+        display: block;
       }
     }
 
@@ -141,6 +144,10 @@
       .notification__time {
         font-variation-settings: 'wght' 400;
         color: var(--gray400);
+      }
+
+      .notification__mark__read {
+        display: none;
       }
     }
   }

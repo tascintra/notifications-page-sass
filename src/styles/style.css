@@ -99,6 +99,7 @@ body {
   padding: 16px;
   border-radius: 4px;
   cursor: default;
+  border: 1px solid transparent;
 }
 .notifications__area .notification__container .notification__avatar {
   width: 44px;
@@ -125,6 +126,7 @@ body {
   right: -14px;
   top: 8px;
   cursor: pointer;
+  display: block;
 }
 .notifications__area .notification__container .notification__content {
   display: flex;
@@ -168,4 +170,7 @@ body {
 .notifications__area .notification__container .notification__content .notification__time {
   font-variation-settings: "wght" 400;
   color: var(--gray400);
+}
+.notifications__area .notification__container .notification__content .notification__mark__read {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

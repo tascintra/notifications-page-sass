@@ -8,6 +8,19 @@ const notificationContentUnread = document.querySelectorAll(
   '.notification__content.unread'
 );
 
-console.log(notificationContentUnread);
+notificationContentUnread.forEach((item) => {
+  item
+    .appendChild(document.createElement('button'))
+    .classList.add('notification__mark__read');
+});
 
-notificationContentUnread[0].appendChild(document.createElement('button')).classList.add('notification__mark__read');
+const markRead = document.querySelectorAll('.notification__mark__read');
+
+function handleMarkUnread(event) {
+  event.target.parentElement.classList.remove('unread');
+  event.target.parentElement.parentElement.classList.remove('unread');
+}
+
+markRead.forEach((button) =>
+  button.addEventListener('click', handleMarkUnread)
+);
