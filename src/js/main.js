@@ -4,6 +4,10 @@ const unreadNotifications = document.querySelectorAll(
   '.notification__container .unread'
 );
 
-const notificationContentUnread = document.querySelectorAll('.notification__content.unread')
+const notificationContentUnread = document.querySelectorAll(
+  '.notification__content.unread'
+);
 
-// const markNotificationRead = window.getComputedStyle(notificationContentUnread,':after')
+console.log(notificationContentUnread);
+
+notificationContentUnread[0].appendChild(document.createElement('button')).classList.add('notification__mark__read');

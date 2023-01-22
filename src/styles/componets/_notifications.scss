@@ -43,7 +43,7 @@
       color: var(--gray500);
     }
     .notifications__mark__all:hover {
-        color: var(--blue300);
+      color: var(--blue300);
     }
   }
 
@@ -78,16 +78,18 @@
       border-radius: 8px;
     }
 
-    .notification__content.unread::after {
-      content: '';
-      background: var(--red300);
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      position: absolute;
-      right: -14px;
-      top: 8px;
-      cursor: pointer;
+    .notification__content.unread {
+      .notification__mark__read {
+        background: var(--red300);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border: none;
+        position: absolute;
+        right: -14px;
+        top: 8px;
+        cursor: pointer;
+      }
     }
 
     .notification__content {
@@ -104,7 +106,7 @@
         font-variation-settings: 'wght' 700;
         cursor: pointer;
       }
-      
+
       .notification__user:hover {
         color: var(--blue300);
       }

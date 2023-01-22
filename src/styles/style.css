@@ -115,12 +115,12 @@ body {
   border: 2px solid var(--gray300);
   border-radius: 8px;
 }
-.notifications__area .notification__container .notification__content.unread::after {
-  content: "";
+.notifications__area .notification__container .notification__content.unread .notification__mark__read {
   background: var(--red300);
   width: 8px;
   height: 8px;
   border-radius: 50%;
+  border: none;
   position: absolute;
   right: -14px;
   top: 8px;
