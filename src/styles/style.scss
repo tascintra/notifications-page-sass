@@ -1,5 +1,5 @@
 @use './abstract/variables';
 @use './componets/main';
-@use './componets/notifications-wrapper';
-@use './componets/notifications-summary';
-@use './componets/notifications-container';
+@use './components/notifications-wrapper';
+@use './components/notifications-summary';
+@use './components/notifications-container';
