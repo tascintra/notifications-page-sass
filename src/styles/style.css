@@ -1,16 +1,3 @@
-:root {
-  --red300: #f65351;
-  --blue300: #0a317b;
-  --blue500: #1c202b;
-  --white: #ffffff;
-  --gray100: #f7fafd;
-  --gray200: #e5effa;
-  --gray300: #dde7ee;
-  --gray400: #939dae;
-  --gray500: #5e6778;
-  --font100: "Plus Jakarta Sans", sans-serif;
-}
-
 /* CSS Reset */
 * {
   margin: 0;
@@ -33,9 +20,8 @@ a {
 }
 
 body {
-  font-family: var(--font100);
-  font-size: 1rem;
-  background-color: var(--gray100);
+  font: 1rem "Plus Jakarta Sans", sans-serif;
+  background-color: #f7fafd;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,10 +31,10 @@ body {
 .notifications__area {
   max-width: 668px;
   max-height: 840px;
-  border: 1px solid var(--gray100);
+  border: 1px solid #f7fafd;
   border-radius: 16px;
   padding: 44px 32px 0px 32px;
-  background: var(--white);
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -71,8 +57,8 @@ body {
 }
 .notifications__area .notifications__summary .notifications__amount .notifications__counter {
   font-variation-settings: "wght" 750;
-  background: var(--blue300);
-  color: var(--white);
+  background: #0a317b;
+  color: #ffffff;
   text-align: center;
   width: 32px;
   padding: 2px 0px;
@@ -83,16 +69,15 @@ body {
   cursor: pointer;
   border: none;
   background: transparent;
-  font-family: var(--font100);
-  font-size: 1rem;
-  color: var(--gray500);
+  font: 1rem "Plus Jakarta Sans", sans-serif;
+  color: #5e6778;
 }
 .notifications__area .notifications__summary .notifications__mark__all:hover {
-  color: var(--blue300);
+  color: #0a317b;
 }
 .notifications__area .notification__container.unread {
-  background: var(--gray100);
-  border: 1px solid var(--gray100);
+  background: #f7fafd;
+  border: 1px solid #f7fafd;
   box-shadow: 0px 1px 2px 2px rgba(222, 222, 222, 0.2);
 }
 .notifications__area .notification__container {
@@ -115,11 +100,11 @@ body {
   cursor: pointer;
 }
 .notifications__area .notification__container .notification__picture:hover {
-  border: 2px solid var(--gray300);
+  border: 2px solid #dde7ee;
   border-radius: 8px;
 }
 .notifications__area .notification__container .notification__content.unread .notification__mark__read {
-  background: var(--red300);
+  background: #f65351;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -134,44 +119,44 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  color: var(--gray500);
+  color: #5e6778;
   font-variation-settings: "wght" 450;
   max-width: 552px;
   position: relative;
 }
 .notifications__area .notification__container .notification__content .notification__user {
-  color: var(--blue500);
+  color: #1c202b;
   font-variation-settings: "wght" 700;
   cursor: pointer;
 }
 .notifications__area .notification__container .notification__content .notification__user:hover {
-  color: var(--blue300);
+  color: #0a317b;
 }
 .notifications__area .notification__container .notification__content .notification__post {
   font-variation-settings: "wght" 730;
   cursor: pointer;
 }
 .notifications__area .notification__container .notification__content .notification__post:hover {
-  color: var(--blue300);
+  color: #0a317b;
 }
 .notifications__area .notification__container .notification__content .notification__group {
   font-variation-settings: "wght" 800;
-  color: var(--blue300);
+  color: #0a317b;
   cursor: pointer;
 }
 .notifications__area .notification__container .notification__content .notification__message {
   padding: 16px 22px 16px 16px;
   margin-top: 8px;
-  border: 1px solid var(--gray300);
+  border: 1px solid #dde7ee;
   border-radius: 4px;
   cursor: pointer;
 }
 .notifications__area .notification__container .notification__content .notification__message:hover {
-  background: var(--gray300);
+  background: #dde7ee;
 }
 .notifications__area .notification__container .notification__content .notification__time {
   font-variation-settings: "wght" 400;
-  color: var(--gray400);
+  color: #939dae;
 }
 .notifications__area .notification__container .notification__content .notification__mark__read {
   display: none;
