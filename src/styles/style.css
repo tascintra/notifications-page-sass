@@ -28,7 +28,7 @@ body {
   height: 100vh;
 }
 
-.notifications__area {
+.notifications__wrapper {
   max-width: 668px;
   max-height: 840px;
   border: 1px solid #f7fafd;
@@ -40,22 +40,23 @@ body {
   gap: 12px;
   box-shadow: 0px 0px 15px 8px rgba(222, 222, 222, 0.2);
 }
-.notifications__area .notifications__summary {
+
+.notifications__summary {
   display: flex;
   align-items: center;
   margin-bottom: 24px;
   cursor: default;
 }
-.notifications__area .notifications__summary .notifications__amount {
+.notifications__summary .notifications__amount {
   display: flex;
   align-items: center;
   gap: 12px;
 }
-.notifications__area .notifications__summary .notifications__amount .notifications__title {
+.notifications__summary .notifications__amount .notifications__title {
   font-variation-settings: "wght" 750;
   font-size: 1.4rem;
 }
-.notifications__area .notifications__summary .notifications__amount .notifications__counter {
+.notifications__summary .notifications__amount .notifications__counter {
   font-variation-settings: "wght" 750;
   background: #0a317b;
   color: #ffffff;
@@ -64,7 +65,7 @@ body {
   padding: 2px 0px;
   border-radius: 6px;
 }
-.notifications__area .notifications__summary .notifications__mark__all {
+.notifications__summary .notifications__mark__all {
   margin-left: auto;
   cursor: pointer;
   border: none;
@@ -72,15 +73,17 @@ body {
   font: 1rem "Plus Jakarta Sans", sans-serif;
   color: #5e6778;
 }
-.notifications__area .notifications__summary .notifications__mark__all:hover {
+.notifications__summary .notifications__mark__all:hover {
   color: #0a317b;
 }
-.notifications__area .notification__container.unread {
+
+.notification__container.unread {
   background: #f7fafd;
   border: 1px solid #f7fafd;
   box-shadow: 0px 1px 2px 2px rgba(222, 222, 222, 0.2);
 }
-.notifications__area .notification__container {
+
+.notification__container {
   display: flex;
   gap: 16px;
   padding: 16px;
@@ -88,22 +91,22 @@ body {
   cursor: default;
   border: 1px solid transparent;
 }
-.notifications__area .notification__container .notification__avatar {
+.notification__container .notification__avatar {
   width: 44px;
   height: 44px;
 }
-.notifications__area .notification__container .notification__picture {
+.notification__container .notification__picture {
   width: 44px;
   height: 44px;
   margin-left: auto;
   border: 2px solid transparent;
   cursor: pointer;
 }
-.notifications__area .notification__container .notification__picture:hover {
+.notification__container .notification__picture:hover {
   border: 2px solid #dde7ee;
   border-radius: 8px;
 }
-.notifications__area .notification__container .notification__content.unread .notification__mark__read {
+.notification__container .notification__content.unread .notification__mark__read {
   background: #f65351;
   width: 8px;
   height: 8px;
@@ -115,7 +118,7 @@ body {
   cursor: pointer;
   display: block;
 }
-.notifications__area .notification__container .notification__content {
+.notification__container .notification__content {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -124,40 +127,40 @@ body {
   max-width: 552px;
   position: relative;
 }
-.notifications__area .notification__container .notification__content .notification__user {
+.notification__container .notification__content .notification__user {
   color: #1c202b;
   font-variation-settings: "wght" 700;
   cursor: pointer;
 }
-.notifications__area .notification__container .notification__content .notification__user:hover {
+.notification__container .notification__content .notification__user:hover {
   color: #0a317b;
 }
-.notifications__area .notification__container .notification__content .notification__post {
+.notification__container .notification__content .notification__post {
   font-variation-settings: "wght" 730;
   cursor: pointer;
 }
-.notifications__area .notification__container .notification__content .notification__post:hover {
+.notification__container .notification__content .notification__post:hover {
   color: #0a317b;
 }
-.notifications__area .notification__container .notification__content .notification__group {
+.notification__container .notification__content .notification__group {
   font-variation-settings: "wght" 800;
   color: #0a317b;
   cursor: pointer;
 }
-.notifications__area .notification__container .notification__content .notification__message {
+.notification__container .notification__content .notification__message {
   padding: 16px 22px 16px 16px;
   margin-top: 8px;
   border: 1px solid #dde7ee;
   border-radius: 4px;
   cursor: pointer;
 }
-.notifications__area .notification__container .notification__content .notification__message:hover {
+.notification__container .notification__content .notification__message:hover {
   background: #dde7ee;
 }
-.notifications__area .notification__container .notification__content .notification__time {
+.notification__container .notification__content .notification__time {
   font-variation-settings: "wght" 400;
   color: #939dae;
 }
-.notifications__area .notification__container .notification__content .notification__mark__read {
+.notification__container .notification__content .notification__mark__read {
   display: none;
 }/*# sourceMappingURL=style.css.map */
