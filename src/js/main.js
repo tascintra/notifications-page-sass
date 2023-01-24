@@ -30,7 +30,7 @@ unreadCounter.children[0].innerHTML = unreadNotifications.length;
 function handleMarkRead(event) {
   event.target.parentElement.classList.remove('unread');
   event.target.parentElement.parentElement.classList.remove('unread');
-  +unreadCounter.children[0].innerHTML--;
+  unreadCounter.children[0].innerHTML--;
 }
 
 const markRead = document.querySelectorAll('.notification__mark__read');
