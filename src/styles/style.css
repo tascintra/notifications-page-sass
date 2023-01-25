@@ -91,13 +91,11 @@ body {
   cursor: default;
   border: 1px solid transparent;
 }
-.notification__container .notification__avatar {
+.notification__container .notification__imgs {
+  max-width: initial;
   width: 44px;
-  height: 44px;
 }
 .notification__container .notification__picture {
-  width: 44px;
-  height: 44px;
   margin-left: auto;
   border: 2px solid transparent;
   cursor: pointer;
