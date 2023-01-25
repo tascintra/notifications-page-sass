@@ -1,5 +1,5 @@
 import markRead from './modules/markRead.js';
-
+import handleUnreadButton from './modules/unreadButton.js';
 import { unreadCounter } from './modules/unreadCounter.js';
 
 const allNotifications = document.querySelectorAll('.notification__container');
@@ -11,16 +11,6 @@ allNotifications.forEach((item, index) => {
   }
 });
 
-const unreadNotificationContent = document.querySelectorAll(
-  '.notification__content.unread'
-);
-
-unreadNotificationContent.forEach((item) => {
-  item
-    .appendChild(document.createElement('button'))
-    .classList.add('notification__mark__read');
-});
-
 const markAllRead = document.querySelector('.notifications__mark__all');
 
 const unreadNotifications = document.querySelectorAll(
@@ -29,4 +19,5 @@ const unreadNotifications = document.querySelectorAll(
 
 unreadCounter.children[0].innerHTML = unreadNotifications.length;
 
+handleUnreadButton();
 markRead();
