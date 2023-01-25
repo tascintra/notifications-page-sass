@@ -1,3 +1,7 @@
+import markRead from './modules/markRead.js';
+
+import { unreadCounter } from './modules/unreadCounter.js';
+
 const allNotifications = document.querySelectorAll('.notification__container');
 
 allNotifications.forEach((item, index) => {
@@ -23,16 +27,6 @@ const unreadNotifications = document.querySelectorAll(
   '.notification__container .unread'
 );
 
-const unreadCounter = document.querySelector('.notifications__counter');
-
 unreadCounter.children[0].innerHTML = unreadNotifications.length;
 
-function handleMarkRead(event) {
-  event.target.parentElement.classList.remove('unread');
-  event.target.parentElement.parentElement.classList.remove('unread');
-  unreadCounter.children[0].innerHTML--;
-}
-
-const markRead = document.querySelectorAll('.notification__mark__read');
-
-markRead.forEach((button) => button.addEventListener('click', handleMarkRead));
+markRead();
