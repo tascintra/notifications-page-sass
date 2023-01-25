@@ -11,13 +11,12 @@ allNotifications.forEach((item, index) => {
   }
 });
 
-const markAllRead = document.querySelector('.notifications__mark__all');
-
 const unreadNotifications = document.querySelectorAll(
   '.notification__container .unread'
 );
-
 unreadCounter.children[0].innerHTML = unreadNotifications.length;
 
 handleUnreadButton();
 markRead();
+
+const markAllRead = document.querySelector('.notifications__mark__all');
