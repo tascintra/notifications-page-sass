@@ -99,7 +99,11 @@ body {
   right: 8px;
   top: 24px;
   cursor: pointer;
-  display: block;
+}
+@media screen and (max-width: 700px) {
+  .notification__container.unread .notification__mark__read {
+    display: block;
+  }
 }
 
 .notification__container {
@@ -114,6 +118,9 @@ body {
 .notification__container .notification__imgs {
   max-width: initial;
   width: 44px;
+}
+.notification__container .notification__mark__read {
+  display: none;
 }
 .notification__container .notification__picture {
   margin-left: auto;
@@ -134,7 +141,11 @@ body {
   right: -14px;
   top: 8px;
   cursor: pointer;
-  display: block;
+}
+@media screen and (min-width: 700px) {
+  .notification__container .notification__content.unread .notification__mark__read {
+    display: block;
+  }
 }
 .notification__container .notification__content {
   display: flex;
@@ -179,6 +190,6 @@ body {
   font-variation-settings: "wght" 400;
   color: #939dae;
 }
-.notification__container .notification__mark__read {
+.notification__container .notification__content .notification__mark__read {
   display: none;
 }/*# sourceMappingURL=style.css.map */

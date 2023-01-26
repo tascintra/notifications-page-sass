@@ -5,7 +5,6 @@
   border: 1px solid variables.$gray100;
   box-shadow: 0px 1px 2px 2px rgba(222, 222, 222, 0.2);
 
-
   .notification__mark__read {
     background: variables.$red300;
     min-width: 24px;
@@ -16,7 +15,10 @@
     right: 8px;
     top: 24px;
     cursor: pointer;
-    display: block;
+
+    @media screen and (max-width: variables.$breakpoint-small) {
+      display: block;
+    }
   }
 }
 
@@ -32,6 +34,10 @@
   .notification__imgs {
     max-width: initial;
     width: 44px;
+  }
+
+  .notification__mark__read {
+    display: none;
   }
 
   .notification__picture {
@@ -56,7 +62,10 @@
       right: -14px;
       top: 8px;
       cursor: pointer;
-      display: block;
+
+      @media screen and (min-width: variables.$breakpoint-small) {
+        display: block;
+      }
     }
   }
 
@@ -110,8 +119,9 @@
       font-variation-settings: 'wght' 400;
       color: variables.$gray400;
     }
-  }
-  .notification__mark__read {
-    display: none;
+
+    .notification__mark__read {
+      display: none;
+    }
   }
 }
