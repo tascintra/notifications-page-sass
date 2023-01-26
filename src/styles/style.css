@@ -25,7 +25,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .notifications__wrapper {
@@ -43,8 +43,18 @@ body {
 @media screen and (max-width: 700px) {
   .notifications__wrapper {
     max-height: initial;
-    min-height: 100%;
+    min-height: 100vh;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 592px) {
+  .notifications__wrapper {
+    padding: 0px 16px;
+  }
+}
+@media screen and (max-width: 492px) {
+  .notifications__wrapper {
+    padding: 16px;
   }
 }
 

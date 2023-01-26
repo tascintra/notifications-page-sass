@@ -16,7 +16,7 @@
     top: 24px;
     cursor: pointer;
 
-    @media screen and (max-width: variables.$breakpoint-small) {
+    @media screen and (max-width: variables.$bp-small) {
       display: block;
     }
   }
@@ -63,7 +63,7 @@
       top: 8px;
       cursor: pointer;
 
-      @media screen and (min-width: variables.$breakpoint-small) {
+      @media screen and (min-width: variables.$bp-small) {
         display: block;
       }
     }
