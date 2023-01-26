@@ -40,6 +40,13 @@ body {
   gap: 12px;
   box-shadow: 0px 0px 15px 8px rgba(222, 222, 222, 0.2);
 }
+@media screen and (max-width: 700px) {
+  .notifications__wrapper {
+    max-height: initial;
+    height: 100vh;
+    justify-content: center;
+  }
+}
 
 .notifications__summary {
   display: flex;
