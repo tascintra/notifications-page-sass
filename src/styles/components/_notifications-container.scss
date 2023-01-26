@@ -4,11 +4,26 @@
   background: variables.$gray100;
   border: 1px solid variables.$gray100;
   box-shadow: 0px 1px 2px 2px rgba(222, 222, 222, 0.2);
+
+
+  .notification__mark__read {
+    background: variables.$red300;
+    min-width: 24px;
+    height: 24px;
+    margin-left: auto;
+    border-radius: 50%;
+    border: none;
+    right: 8px;
+    top: 24px;
+    cursor: pointer;
+    display: block;
+  }
 }
 
 .notification__container {
   display: flex;
   gap: 16px;
+  align-items: center;
   padding: 16px;
   border-radius: 4px;
   cursor: default;
@@ -33,7 +48,7 @@
   .notification__content.unread {
     .notification__mark__read {
       background: variables.$red300;
-      width: 8px;
+      min-width: 8px;
       height: 8px;
       border-radius: 50%;
       border: none;
@@ -87,8 +102,7 @@
       cursor: pointer;
 
       &:hover {
-      background: variables.$gray300;
-
+        background: variables.$gray300;
       }
     }
 
@@ -96,9 +110,8 @@
       font-variation-settings: 'wght' 400;
       color: variables.$gray400;
     }
-
-    .notification__mark__read {
-      display: none;
-    }
+  }
+  .notification__mark__read {
+    display: none;
   }
 }
