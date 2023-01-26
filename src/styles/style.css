@@ -43,7 +43,7 @@ body {
 @media screen and (max-width: 700px) {
   .notifications__wrapper {
     max-height: initial;
-    height: 100vh;
+    height: 100%;
     justify-content: center;
   }
 }

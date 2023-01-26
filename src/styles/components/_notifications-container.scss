@@ -23,11 +23,11 @@
     margin-left: auto;
     border: 2px solid transparent;
     cursor: pointer;
-  }
 
-  .notification__picture:hover {
-    border: 2px solid variables.$gray300;
-    border-radius: 8px;
+    &:hover {
+      border: 2px solid variables.$gray300;
+      border-radius: 8px;
+    }
   }
 
   .notification__content.unread {
@@ -58,19 +58,19 @@
       color: variables.$blue500;
       font-variation-settings: 'wght' 700;
       cursor: pointer;
-    }
 
-    .notification__user:hover {
-      color: variables.$blue300;
+      &:hover {
+        color: variables.$blue300;
+      }
     }
 
     .notification__post {
       font-variation-settings: 'wght' 730;
       cursor: pointer;
-    }
 
-    .notification__post:hover {
-      color: variables.$blue300;
+      &:hover {
+        color: variables.$blue300;
+      }
     }
 
     .notification__group {
@@ -85,10 +85,11 @@
       border: 1px solid variables.$gray300;
       border-radius: 4px;
       cursor: pointer;
-    }
 
-    .notification__message:hover {
+      &:hover {
       background: variables.$gray300;
+
+      }
     }
 
     .notification__time {
